@@ -1,13 +1,10 @@
 let ove = document.querySelector('.ove');
-let moveBy = 10;
-
+let moveBy = 11;
 window.addEventListener('load', () => {
     ove.style.position = 'absolute';
     ove.style.left = 0;
     ove.style.top = 0;
 });
-
-
 window.addEventListener('keyup', (e) => {
     switch (e.key) {
         case 'ArrowLeft':
